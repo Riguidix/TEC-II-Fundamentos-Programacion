@@ -15,3 +15,45 @@ Terminar todas las prácticas en cada lenguaje aún cuando sólo sean algunas la
 - [ ] C++
 - [ ] Python
 - [ ] Go
+
+## Hello World
+
+### JAVA
+```java
+public class Principal {
+      public static void main(String[] args) {
+            System.out.println("Hello, World!");
+      }
+}
+```
+
+### C++
+```c++
+#include <cstdlib>
+#include <stdio.h>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+    printf("Hello, World!");
+    return 0;
+}
+```
+
+### PYTHON
+```python
+print('Hello, World!')
+```
+
+### GO
+```golang
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, world!")
+}
+```
+
+
