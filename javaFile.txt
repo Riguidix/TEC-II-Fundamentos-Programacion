@@ -1,0 +1,46 @@
+Tipos de datos, existen distintos tipos de datos llamados "PRIMITIVOS", tales tipos quieren dar
+mención a que no son "métodos, no son objetos, no necesitan una invocación para ser creados".
+------------------ Todo estas comillas ^ dan especifican a temas más avanzados --------------------
+
+Existen los tipos de datos:
+
+NOMBRE 				TIPO							OCUPA							RANGO APROXIMADO
+  Byte			Entero							1 byte							-128 a 127
+	Short			Entero							2 bytes						-32768 a 32767
+	Int				Entero							4 bytes		-2,147,483,648 a 2,147,483,647
+  Long			Entero							8 bytes						Bastante grande
+  Float			Decimal Simple			4 bytes						Bastante grande
+  Double		Decimal Doble				8 bytes						Bastante grande
+  Char			Carácter Simple			2 bytes						---------------
+  Boolean   Valor V o F					1 byte						---------------
+  
+  
+  Los valores enteros o INT son números negativos, cero y positivos.
+  Los valorse booleanos son tipos de datos con 2 alternativas Verdadero o Falso (true/false).
+  Los valores de Char quieren dar margen a un carácter en especifico, mientras que "HOLA" es una
+  cadena de texto esta cadena esta compuesta de "H" + "O" + "L" + "A", o sea de 4 caracteres, o
+  cuatro tipos char ya que el char almacena solo una caracter. (Se usan 'comillas simples')
+  
+  Las variables son cuerpos o cajas que almacenan información que puede ser reutilizable.
+  En Java siempre debes de declarar el tipo de dato que sera la variable, el nombre sin errores de 
+  sintaxis y despues su valor.
+
+  							TIPO DE DATO - NOMBRE DE LA VARIABLE | CONSTANTE | IDENTIFICADOR
+                	int _Edad; 		// Puede iniciar con guion bajo
+                  int edad;			// Identificador valido
+                  int a2e2d2a;	// Números en cualquier parte excepto al inicio del nombre
+                  int $fffdada; // Puede comenzar con signo de moneda
+                  ---------------------------ERRORES----------------------
+                  int 123as; 
+                  int tu edad;
+                  int as-fjak; // El guión no es valido ya que es un operador aritmético (Resta)
+                  
+    Los int no pueden contener decimales, ya que es de tipo ENTERO sólo valores 5, 14, -56565, 2
+Si quieres tener un tipo 5.2 deberas indicar tipo FLOAT
+
+Se pueden crear tipos de constantes, ESTAS NO SON VARIABLES, SON CONSTANTES significa que una vez 
+creada con un valor ya no podra ser reformateada. Tal el ejemplo de PI ya que PI aquí y en China es
+lo mismo. Como PI es bastante grande pues se recomienda usar el Double en lugar del float, ademas que
+las constantes se les agrega el FINAL al principio de su creación.
+        // CONSTANTES ----> RECOMENDACION EN MAYUSCULAS PARA NO CONFUNDIR EN EL TRAYECTO
+        final double PI = 3.141592;
