@@ -4,15 +4,15 @@ mención a que no son "métodos, no son objetos, no necesitan una invocación pa
 
 Existen los tipos de datos:
 
-NOMBRE 				TIPO							OCUPA							RANGO APROXIMADO
-  Byte			Entero							1 byte							-128 a 127
-	Short			Entero							2 bytes						-32768 a 32767
-	Int				Entero							4 bytes		-2,147,483,648 a 2,147,483,647
-  Long			Entero							8 bytes						Bastante grande
-  Float			Decimal Simple			4 bytes						Bastante grande
-  Double		Decimal Doble				8 bytes						Bastante grande
-  Char			Carácter Simple			2 bytes						---------------
-  Boolean   Valor V o F					1 byte						---------------
+NOMBRE 			TIPO			OCUPA							RANGO APROXIMADO
+  Byte			Entero			1 byte							-128 a 127
+  Short			Entero			2 bytes							-32768 a 32767
+  Int			Entero			4 bytes						-2,147,483,648 a 2,147,483,647
+  Long			Entero			8 bytes							Bastante grande
+  Float			Decimal Simple		4 bytes							Bastante grande
+  Double		Decimal Doble		8 bytes							Bastante grande
+  Char			Carácter Simple		2 bytes							---------------
+  Boolean  		 Valor V o F		1 byte							---------------
   
   
   Los valores enteros o INT son números negativos, cero y positivos.
@@ -25,8 +25,8 @@ NOMBRE 				TIPO							OCUPA							RANGO APROXIMADO
   En Java siempre debes de declarar el tipo de dato que sera la variable, el nombre sin errores de 
   sintaxis y despues su valor.
 
-  							TIPO DE DATO - NOMBRE DE LA VARIABLE | CONSTANTE | IDENTIFICADOR
-                	int _Edad; 		// Puede iniciar con guion bajo
+  			TIPO DE DATO - NOMBRE DE LA VARIABLE | CONSTANTE | IDENTIFICADOR
+                  int _Edad; 		// Puede iniciar con guion bajo
                   int edad;			// Identificador valido
                   int a2e2d2a;	// Números en cualquier parte excepto al inicio del nombre
                   int $fffdada; // Puede comenzar con signo de moneda
